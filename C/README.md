@@ -1,6 +1,19 @@
 # server-examples
 Implementation of servers in C.
 
+### Server-epoll
+Server based on epoll.
+
+Compile:
+```sh
+clang server-epoll.c -o server-epoll
+```
+
+Usage:
+```sh
+./server-epoll
+```
+
 ### Server-threads
 Server based on threads (one per request).
 
